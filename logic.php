@@ -11,9 +11,10 @@ echo "<br/>";
 
 echo "a OR b: ";
 var_dump($a || $b);
+echo "<br/>";
 
 echo "a NOT EQUAL b: ";
 var_dump($a != $b);
-echo "<br/>";
+
 
 ?>
