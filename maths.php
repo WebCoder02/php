@@ -22,6 +22,12 @@ $isGreater = ($a > $b);
 $isSmaller = ($a < $b);
 $isNotEqual = ($a != $b);
 
+
+$andCheck = ($a < $b) && ($a != $b);  
+$orCheck = ($a == $b) || ($a < $b);   
+$notCheck = !($a == $b);              
+
+
 echo var_dump($isEqual);
 echo "<br/>";
 echo var_dump($isGreater);
@@ -29,5 +35,15 @@ echo "<br/>";
 echo var_dump($isSmaller);
 echo "<br/>";
 echo var_dump($isNotEqual);
+
+echo "<br/>";
+
+echo var_dump($andCheck);
+echo "<br/>";
+
+echo var_dump($orCheck);
+echo "<br/>";
+
+echo var_dump($notCheck);
 
 ?>
