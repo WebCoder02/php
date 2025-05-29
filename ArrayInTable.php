@@ -1,7 +1,7 @@
 <?php
 $data = [
     ["Name" => "Anuj", "Age" => 21],
-    ["Name" => "Riya", "Age" => 20]
+    ["Name" => "Pankaj", "Age" => 20]
 ];
 echo "<table border='1'>";
 foreach ($data as $row) {
